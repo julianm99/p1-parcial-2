@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tienda de indumentaria de River Plate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="images/escudo_river.png">
+</head>
+<body>
+    <header>
+        <h1>Tienda River Plate</h1>
+           <div id="carrito" >
+            <div class="carrito-icono" onclick="abrirCarritoModal()">
+            <img src="images/shopping-cart_4163084.png" alt="Carrito" />
+            </div>
+            <p><span id="contador-productos">0</span> ítems</p>
+            <p>Total: <span id="total-precio">$0</span></p>
+            <button onclick="carrito.vaciarCarrito()">Vaciar Carrito</button>
+        </div>     
+    </header>
+    <main>
+        <h2>Productos</h2>
+        <div id="productos-filtros">
+            <select id="categorias" onchange="ordenarYFiltrarProductos()">
+                <option value="Todos">Todos</option>
+                <option value="Camisetas">Camisetas</option>
+                <option value="Shorts">Shorts</option>
+                <option value="Pantalones">Pantalones</option>
+            </select>
+            <select id="ordenar" onchange="ordenarYFiltrarProductos()">
+                <option value="">Elija una opción</option>
+                <option value="precio-asc">De Menor a Mayor</option>
+                <option value="precio-desc">De Mayor a Menor</option>
+            </select>
+        </div>
+        <div id="productos"></div>
+        <div id="carrito-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarCarritoModal()">x</span>
+                <h3>Carrito de Compras</h3>
+                <div id="carrito-lista"></div>
+                <p>Total Productos: <span id="modal-contador-productos">0</span></p>
+                <p>Total Precio: <span id="modal-total-precio">$0</span></p>
+                <button onclick="carrito.vaciarCarrito()">Vaciar Carrito</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>Profesor Fabrizio Carlassara</li>
+            <li><a href="mailto:fabrizio.carlassara@davinci.edu.ar">fabrizio.carlassara@davinci.edu.ar</a></li>
+            <li>Programación 1</li>
+            <li><a href="#">GitHub Repo</a></li>
+        </ul>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

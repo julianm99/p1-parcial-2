@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta River Plate Titular 24/25",
+        "descripcion": ["Esta nueva camiseta oficial de River Plate adidas muestra elegancia en su nuevo diseño con una banda roja que le cruza simulando aquel uniforme utilizado en la Intercontinental de 1986.",
+
+        "Un diseño que recuerda la gloria del pasado para un equipo que se supera cada día.",
+
+        "El tejido absorbente AEROREADY y los paneles en la malla se encargan de mantenerte cómodo ",
+
+        "Hecho con materiales 100% reciclados, este producto representa solo una de nuestras soluciones para acabar con los residuos plásticos.",
+
+        "Ajuste clásico",
+
+        "Cuello en V acanalado",
+
+        "Tejido entrelazado 100 % poliéster reciclado",
+
+        "Tecnología de absorción AEROREADY",
+
+        "Escudo de River Plate tejido."],
+        "precio": 140000,
+        "imagen": "images/camiseta_titular.png",
+        "categoría": "Camisetas",
+        "stock": 4
+    },
+    {
+        "id": 2,
+        "nombre": "Camiseta River Plate Suplente 24/25",
+        "descripcion": ["La camiseta alternativa para hinchas de River Plate, hecha con materiales reciclados.",
+
+        "Ajuste clásico.",
+
+        "Cuello redondo acanalado",
+
+        "Tejido entrelazado 100 % poliéster reciclado",
+
+        "Puños acanalados",
+
+        "Cuello en V acanalado",
+
+        "Inscripción Grandeza en la parte posterior del cuello",
+
+        "Tecnología de absorción AEROREADY",
+
+        "Escudo de River Plate tejido."],
+        "precio": 120000,
+        "imagen": "images/camiseta_suplente.png",
+        "categoría": "Camisetas",
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "nombre": "Camiseta River Plate Alternativa 23/24",
+        "descripcion": ["Reinterpretación del icónico diseño alternativo que recuerda los éxitos del Millonario en la decáda del ´90.",
+
+                        "Con tecnología de absorción AEROREADY que se encarga de mantener tu piel seca dentro y fuera de la cancha.",
+
+                        "La inscripción Grandeza en la nuca te recuerda la importancia de valorar el pasado en el camino hacia un futuro mejor.",
+
+                        "Hecho con materiales 100% reciclados, este producto representa solo una de nuestras soluciones para acabar con los residuos plásticos.",
+
+                        "Ajuste clásico",
+
+                        "Cuello en V acanalado",
+
+                        "Tejido entrelazado 100 % poliéster reciclado",
+
+                        "Tecnología de absorción AEROREADY",
+
+                        "Dobladillo curvo en el frente y la espalda."],
+        "precio": 100000,
+        "imagen": "images/camiseta alternativa.png",
+        "categoría": "Camisetas",
+        "stock": 4
+    },
+    {
+        "id": 4,
+        "nombre": "Short River Plate Titular 24/25",
+        "descripcion":["Su diseño innovador te permite correr y cambiar de dirección sin restricciones.",
+
+        "Hecho con materiales 100% reciclados, este producto representa solo una de nuestras soluciones para acabar con los residuos plásticos.",
+
+        "Ajuste clásico con tiro medio.",
+
+        "Cintura elástica con cordón regulable.",
+
+        "Tejido entrelazado 100 % poliéster reciclado.",
+
+        "Refuerzo de mesh en la entrepierna.",
+
+        "Escudo de River Plate termotransferido."],
+        "precio": 80000,
+        "imagen": "images/short_titular.png",
+        "categoría": "Shorts",
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "nombre": "Short River Plate Suplente 24/25",
+        "descripcion": ["Shorts cómodos para hinchas de River Plate, hechos con materiales reciclados",
+
+        "Corte clásico.",
+
+        "Cintura elástica de tiro medio con cordón de ajuste.",
+
+        "Tejido entrelazado 100 % poliéster reciclado.",
+
+        "Tecnología de absorción AEROREADY",
+
+        "Escudo de River Plate serigrafiado"],
+        "precio": 80000,
+        "imagen": "images/short_suplente.png",
+        "categoría": "Shorts",
+        "stock": 6
+    },
+    {
+        "id": 6,
+        "nombre": "Short River Plate Alternativo 23/24",
+        "descripcion": ["Shorts alternativos de River Plate.",
+
+        "Corte clásico.",
+
+        "Cintura elástica de tiro medio con cordón regulable.",
+
+        "Tejido de punto doble 100 % poliéster reciclado.",
+
+        "HEAT.RDY.",
+
+        "Panel de ventilación en malla",
+
+        "Escudo de River Plate bordado"],
+        "precio": 60000,
+        "imagen": "images/short_alternativo.png",
+        "categoría": "Shorts",
+        "stock": 7
+    },
+    {
+        "id": 7,
+        "nombre": "Pantalon River Plate Titular 24/25",
+        "descripcion": ["Corte ajustado",
+
+        "Cintura elástica con cordón",
+
+        "Punto doble 67% algodón / 33% poliéster reciclado.",
+
+        "Bolsillos frontales.",
+
+        "Perneras ajustadas.",
+
+        "Escudo de River Plate"],
+        "precio": 100000,
+        "imagen": "images/pantalon_titular.png",
+        "categoría": "Pantalones",
+        "stock": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Pantalon River Plate Suplente 24/25",
+        "descripcion": "Representá a tu club de fútbol favorito mientras te esforzás en la cancha. Este Pantalón Fútbol adidas River Plate Entrenamiento 24/25 Hombre luce el nuevo look de River Plate y un escudo en la pierna que no deja dudas sobre tu fidelidad. La tecnología AEROREADY que absorbe la humedad mantiene tu cuerpo seco mientras corrés entre los conos o alrededor del campo. Hecho con materiales 100 % reciclados.",
+        "precio": 100000,
+        "imagen": "images/pantalon_suplente.png",
+        "categoría": "Pantalones",
+        "stock": 2
+    },
+    {
+        "id": 9,
+        "nombre": "Pantalon River Plate Titular Clasico",
+        "descripcion": ["Parte de una colección inspirada en el titulo de liga número 26 del club, estos track pants de adidas traen la moda del fútbol de los 90 al mundo de hoy.",
+
+        "Su tejido con forro interno de malla combina resistencia y comodidad.",
+
+        "El escudo del club tejido rinde homenaje a generaciones de jugadores legendarios.",
+
+        "Ajuste clásico",
+
+        "Cintura elástica con cordón ajustable.",
+
+        "100 % poliamida.",
+
+        "Forro interno de malla",
+
+        "Escudo de River Plate tejido."],
+        "precio": 200000,
+        "imagen": "images/pantalon_clasico.png",
+        "categoría": "Pantalones",
+        "stock": 4
+    }
+]
+
+
