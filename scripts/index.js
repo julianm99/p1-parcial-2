@@ -40,7 +40,7 @@ class Carrito {
     vaciarCarrito() {
         this.productos = [];
         this.actualizar();
-        actualizarVistaModal();
+        actualizarVistaModal(this);
     }
 
     actualizar() {
