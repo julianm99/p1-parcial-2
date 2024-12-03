@@ -10,39 +10,39 @@
 <body>
     <header>
         <h1>Tienda River Plate</h1>
-           <div id="carrito" >
-            <div class="carrito-icono" onclick="abrirCarritoModal()">
-            <img src="images/shopping-cart_4163084.png" alt="Carrito" />
+        <div id="carrito" id="carrito-lista">
+            <div class="carrito-icono">
+                <img src="images/shopping-cart_4163084.png" alt="Carrito" id="abrir-carrito" />
             </div>
             <p><span id="contador-productos">0</span> ítems</p>
             <p>Total: <span id="total-precio">$0</span></p>
-            <button onclick="carrito.vaciarCarrito()">Vaciar Carrito</button>
-        </div>     
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </div>
     </header>
     <main>
         <h2>Productos</h2>
         <div id="productos-filtros">
-            <select id="categorias" onchange="ordenarYFiltrarProductos()">
+            <select id="categorias">
                 <option value="Todos">Todos</option>
                 <option value="Camisetas">Camisetas</option>
                 <option value="Shorts">Shorts</option>
-                <option value="Pantalones">Pantalones</option>
+                <option value="Pantalones">Pantalones</option>     
             </select>
-            <select id="ordenar" onchange="ordenarYFiltrarProductos()">
+            <select id="ordenar">
                 <option value="">Elija una opción</option>
                 <option value="precio-asc">De Menor a Mayor</option>
-                <option value="precio-desc">De Mayor a Menor</option>
+                <option value="precio-desc">De Mayor a Menor</option>    
             </select>
         </div>
         <div id="productos"></div>
-        <div id="carrito-modal" class="modal" style="display: none;">
+        <div id="carrito-modal" class="modal">
             <div class="modal-content">
-                <span class="close" onclick="cerrarCarritoModal()">x</span>
+                <span class="close" id="cerrar-carrito-modal">x</span>
                 <h3>Carrito de Compras</h3>
                 <div id="carrito-lista"></div>
                 <p>Total Productos: <span id="modal-contador-productos">0</span></p>
                 <p>Total Precio: <span id="modal-total-precio">$0</span></p>
-                <button onclick="carrito.vaciarCarrito()">Vaciar Carrito</button>
+                <button id="vaciar-carrito-modal">Vaciar Carrito</button>
             </div>
         </div>
     </main>
@@ -51,7 +51,7 @@
             <li>Profesor Fabrizio Carlassara</li>
             <li><a href="mailto:fabrizio.carlassara@davinci.edu.ar">fabrizio.carlassara@davinci.edu.ar</a></li>
             <li>Programación 1</li>
-            <li><a href="https://github.com/julianm99/p1-parcial-2">GitHub Repo</a></li>
+            <li><a href="https://github.com/julianm99/p1-parcial-2">https://github.com/julianm99/p1-parcial-2</a></li>
         </ul>
     </footer>
     <script src="scripts/index.js"></script>

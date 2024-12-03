@@ -14,17 +14,17 @@ body {
 header {
     background-color: #d50000;
     color: #fff;
-    padding: 0.5em 1em; /* Ajuste para reducir espacio vertical */
+    padding: 0.5em 1em; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em; /* Espaciado entre los elementos */
+    gap: 1em; 
 }
 
 header h1 {
-    font-size: 1.5em; /* Ajusta el tamaño del título para que quepa mejor */
+    font-size: 1.5em; 
     margin: 0;
-    white-space: nowrap; /* Evita que el título se divida en varias líneas */
+    white-space: nowrap; 
 }
 h2{
     color: #fff;
@@ -38,10 +38,10 @@ h2{
 .carrito-icono img {
     width: 40px;
     height: 40px;
-    cursor: pointer; /* Para indicar que es clickeable */
+    cursor: pointer; 
 }
 .carrito-icono img:hover  {
-    box-shadow: 0 6px 6px rgba(255, 255, 255, 0.3); /* Para indicar que es clickeable */
+    box-shadow: 0 6px 6px rgba(255, 255, 255, 0.3); 
     filter: contrast(0.5);
 }
 
@@ -49,20 +49,20 @@ h2{
 header div#carrito {
     display: flex;
     align-items: center;
-    gap: 1em; /* Espaciado entre icono y detalles del carrito */
-    flex-wrap: nowrap; /* Evita que los elementos se dividan en varias líneas */
+    gap: 1em; 
+    flex-wrap: nowrap; 
 }
 
 header div#carrito p {
     margin: 0;
-    font-size: 0.9em; /* Ajuste para tamaños más pequeños */
-    white-space: nowrap; /* Evita saltos de línea */
+    font-size: 0.9em; 
+    white-space: nowrap; 
 }
 
 header div#carrito button {
-    background-color: #ffffff; /* Ajusta el color para que combine con el diseño */
+    background-color: #ffffff; 
     padding: 0.5em 1em;
-    font-size: 0.8em; /* Reduce ligeramente el tamaño */
+    font-size: 0.8em; 
     cursor: pointer;
     color: #8b0000;
     border-radius: 5px;
@@ -93,8 +93,8 @@ main {
     border: 1px solid #d50000;
     padding: 1em;
     text-align: center;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 1 1 calc(30% - 1em);
     flex: 1 1 calc(30% - 1em);
     color: #fff;
@@ -186,8 +186,8 @@ footer a:hover {
 }
 
 .modal-content button {
-    display: block;
-    margin:  auto; 
+    display: inline-block;
+    margin: 5px; 
     padding: 10px 20px;
 }
 .modal .close {
@@ -233,23 +233,61 @@ footer a:hover {
     background-color: #aa0000;
 }
 select {
-    background-color: #ffffff; /* Fondo blanco */
-    color: #d50000; /* Texto en rojo */
+    background-color: #ffffff; 
+    color: #d50000; 
     padding: 0.5em;
     font-size: 1em;
-    border-radius: 5px; /* Bordes redondeados */
-    outline: none; /* Sin borde adicional al seleccionar */
-    cursor: pointer; /* Indicador de que es clickeable */
+    border-radius: 5px; 
+    outline: none; 
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 select:hover {
-    background-color: #d50000; /* Fondo rojo al pasar el mouse */
-    color: #ffffff; /* Texto blanco al pasar el mouse */
+    background-color: #d50000; 
+    color: #ffffff; 
 }
 
 option {
-    background-color: #ffffff; /* Fondo blanco */
-    color: #d50000; /* Texto rojo */
+    background-color: #ffffff;
+    color: #d50000; 
     font-size: 1em;
 }
+.boton-agregar, .boton-detalle {
+    margin: 0.5em;
+}
+
+.cerrar-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.boton-agregar, .boton-detalle {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #d50000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-agregar:hover, .boton-detalle:hover {
+    filter: contrast(0.8);
+}
+#carrito-modal {
+    display: none;
+    position: fixed;
+}
+
+
+
+
+
+
